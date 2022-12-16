@@ -541,6 +541,15 @@ h3.my-profession{
     overflow: hidden;
     cursor: pointer;
 }
+.portfolio .portfolio-item .portfolio-img h2 a{
+    color: var(--skin-color);
+}
+/* .portfolio .portfolio-item .portfolio-img h2 a:focus{
+    color: var(--skin-color);
+} */
+.portfolio .portfolio-item .portfolio-img h2 a::after{
+    color: var(--skin-color);
+}
 /* contact */
 .contact-title{
     color: var(--skin-color);
@@ -746,8 +755,12 @@ h3.my-profession{
 }
 @media(max-width:530px){
     .aside .nav li{
-        display: block;
-        margin-top: 50px;
-        margin-left: 30%;
+        /* display: block; */
+        margin-top: 30px;
+        /* margin-left: 30%; */
     }
+}
+@media(max-width:415px){
+    .contact .social-media .icons a i{
+        letter-spacing: 10px;
 }
