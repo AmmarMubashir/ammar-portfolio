@@ -590,6 +590,9 @@ h3.my-profession{
     text-transform: capitalize;
     font-weight:400;
 }
+.contact .contact-info-item .smallmail{
+    text-transform: lowercase;
+}
 
 .contact .social-media{
     width: 100%;
