@@ -763,4 +763,5 @@ h3.my-profession{
 @media(max-width:415px){
     .contact .social-media .icons a i{
         letter-spacing: 10px;
+    }
 }
